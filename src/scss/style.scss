@@ -1,0 +1,9 @@
+$fa-font-path:        "./fonts";
+
+@import "variables";
+@import "@coreui/coreui/scss/coreui.scss";
+@import "@coreui/coreui/scss/_dropdown-menu-right.scss";
+@import 'react-redux-toastr/src/styles/index.scss';
+@import "font-awesome/scss/font-awesome.scss";
+@import "custom";
+@import "ie-fix";
