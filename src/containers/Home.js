@@ -30,8 +30,6 @@ class Home extends Component {
   }
 
   render() {
-    const { selected_project } = this.props;
-
     return (
       <div className="app">
         <AppHeader fixed>

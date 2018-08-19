@@ -9,12 +9,10 @@ const defaultProps = {};
 
 class DefaultFooter extends Component {
   render() {
-    const { children, ...attributes } = this.props;
-
     return (
       <React.Fragment>
-        <span><a href="http://adstudio.zmessenger.com">AdStudio</a> &copy; 2018 zmessenger.</span>
-        <span className="ml-auto">Powered by <a href="http://www.zmessenger.com/">zmessenger</a></span>
+        <span><a href="https://github.com/emaxters/react-redux-coreui-boilerplate/archive/master.zip">Download</a> React Redux Core UI</span>
+        <span className="ml-auto">Other projects by <a href="https://github.com/emaxters/">shafeek</a></span>
       </React.Fragment>
     );
   }
